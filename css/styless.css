@@ -1,175 +1,180 @@
-           :root {
-              --primary-title-color: #FFFFFF;
-              --secondary-title-color: #000000;
-              --primary-text-color: #212122;
-              --secondary-text-color: #757575;
-              --accent-color: #2196F3;
-              --header-text-color: #212121;
-          }
-          
-          body {
-              letter-spacing: 0.03em;
-              font-family: 'Roboto', sans-serif;
-          }
-          
-          .link {
-              list-style: none;
-          }
-          
-          .btn {
-              font-size: 16px;
-              line-height: 1.88;
-              display: flex;
-              align-items: center;
-              letter-spacing: 0.06em;
-              color: #FFFFFF;
-          }
-          /* Header */
-          
-          .header-link {
-              font-weight: 500;
-              font-size: 16px;
-              line-height: 1.63;
-              text-align: center;
-              letter-spacing: 0.03em;
-              color: #212121;
-          }
-          
-          .header-link:hover,
-          .header-link:hover {
-              color: var(--accent-color);
-          }
-          
-          .header-contacts-link {
-              color: var(--secondary-title-color)
-          }
-          
-          .header-contacts-link {
-              color: var(--accent-color);
-          }
-          
-          .header-contacts-link {
-              font-weight: 500;
-              font-size: 14px;
-              line-height: 1.33;
-              letter-spacing: 0.02em;
-              color: #757575;
-          }
-          /* Hero */
-          
-          .header-btn {
-              color: var(--primary-text-color);
-          }
-          
-          .hero-right {
-              background-color: black;
-          }
-          
-          .hero-list {
-              color: #FFFFFF;
-          }
-          /* About */
-          
-          .about-title {
-              font-family: Roboto, sans-serif;
-              font-style: normal;
-              font-weight: 700;
-              font-size: 14px;
-              line-height: 1.33;
-              letter-spacing: 0.03em;
-              text-transform: uppercase;
-              color: #212121;
-          }
-          
-          .about-after-title {
-              font-family: Roboto, sans-serif;
-              font-style: normal;
-              font-weight: 400;
-              font-size: 14px;
-              line-height: 1.71;
-              letter-spacing: 0.03em;
-              color: #757575;
-          }
-          /* Gallery */
-          
-          .gallery-title {
-              color;
-              black;
-          }
-          /* Masters */
-          
-          .masters-title {
-              font-family: Roboto, sans-serif;
-              font-style: normal;
-              font-weight: bold;
-              font-size: 36px;
-              line-height: 42px;
-              text-align: center;
-              letter-spacing: 0.03em;
-              color: var(--primary-text-color)
-          }
-          
-          .masters-item-text {
-              font-size: 16px;
-              line-height: 1.19;
-              letter-spacing: 0.03em;
-              color: var(--secondary-text-color);
-          }
-          /* Contacts */
-          
-          .contacts {
-              background-color: var(--secondary-title-color);
-          }
-          
-          .contacts-link {
-              font-family: Raleway, sans-serif;
-              font-style: normal;
-              font-weight: bold;
-              font-size: 26px;
-              line-height: 31px;
-              letter-spacing: 0.03em;
-              color: var(--secondary-text-color);
-          }
-          
-          .contacts-link {
-              font-family: Roboto, sans-serif;
-              font-size: 14px;
-              line-height: 1.71;
-              letter-spacing: 0.03em;
-              color: var(--primary-title-color);
-          }
-          /* Footer */
-          
-          .contacts-title {
-              background-color: #2f303a;
-          }
-          
-          .logo {
-              color: #2196F3
-          }
-          
-          ul {
-              list-style: none;
-          }
-          
-          .site-nav .link {
-              color: #212121;
-          }
-          
-          .site-nav .link:hover,
-          .site-nav .link:focus {
-              color: #2196F3;
-          }
-          
-          .contacts .cont {
-              color: #757575;
-          }
-          
-          .contacts .cont:hover,
-          .contacts .cont:focus {
-              color: #2196F3;
-          }
-          
-          .hero-title {
-              color: #FFFFFF;
-          }
+ :root {
+     --primary-title-color: #FFFFFF;
+     --secondary-title-color: #000000;
+     --primary-text-color: #212122;
+     --secondary-text-color: #757575;
+     --accent-color: #2196F3;
+     --header-text-color: #212121;
+ }
+ 
+ body {
+     letter-spacing: 0.03em;
+     font-family: 'Roboto', sans-serif;
+ }
+ 
+ .link {
+     text-decoration: none;
+ }
+ 
+ .list {
+     list-style: none;
+ }
+ 
+ .btn {
+     font-style: normal;
+     font-weight: bold;
+     font-size: 16px;
+     line-height: 1.88;
+     display: flex;
+     align-items: center;
+     text-align: center;
+     letter-spacing: 0.06em;
+ }
+ 
+ .btn {
+     color: var(--primary-title-color)
+ }
+ /* Header */
+ 
+ .header-list-item {
+     font-weight: bold;
+     font-size: 26px;
+     line-height: 1.19;
+     letter-spacing: 0.03em;
+     color: var(--accent-color);
+ }
+ 
+ .header-link {
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+     color: var(--header-text-color);
+ }
+ 
+ .header-link:focus,
+ .header-link:hover {
+     color: var(--accent-color);
+ }
+ 
+ .contacts-link {
+     color: var(--secondary-text-color)
+ }
+ 
+ .contacts-link:focus,
+ .contacts-link:hover {
+     color: var(--accent-color)
+ }
+ /* Hero */
+ 
+ .hero-list {
+     font-weight: 900;
+     font-size: 44px;
+     line-height: 1.36;
+     text-align: center;
+     letter-spacing: 0.06em;
+     text-transform: uppercase;
+     color: var(--primary-title-color)
+ }
+ 
+ .hero-list {
+     background-color: #2F303A;
+ }
+}
+
+/* About */
+.about-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
+}
+.about-title {
+    color: var(--header-text-color)
+}
+.about-after-title {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color)
+}
+
+/* Gallery */
+.gallery-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em
+}
+.gallery-title {
+    color: var(--header-text-color)
+}
+
+/* Masters */
+.masters-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.masters-item-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.masters-item-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.masters {
+    background-color: #F5F4FA;
+}
+
+/* Contacts */
+
+/* Footer */
+.contacts-title {
+    background-color: #2f303a;
+}
+.contacts-link-list {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.contacts-link-address {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+.contacts-link-address:focus {
+    color: var(--accent-color);
+}
+.footer-contacts-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts-link:focus {
+    color: var(--accent-color);
+}
+
+}
